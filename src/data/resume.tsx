@@ -373,6 +373,26 @@ export const DATA = {
   ],
   hackathons: [
     {
+      title: "Promptrepo Hackathon - Kalvium",
+      dates: "Feb 1, 2025",
+      location: "Online Hackathon",
+      description:
+        "We participated in Promptrepo Hackathon, where we designed a personalized schedule management system that handles meeting creation, scheduling, rescheduling, and conflict management. Our prototype showcased an intuitive workflow for seamless productivity",
+      image: "/Promptrepo.png",
+      links: [
+        {
+          title: "Linkedin",
+          icon: <Icons.linkedin className="size-3" />,
+          href: "https://www.linkedin.com/posts/mugilansakthivel_we-team-strix-participated-in-the-kalvium-activity-7295639921891913730-vlD2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEH8ZMkBh5akUoI5Qi4bN0gDzjs5fvjoqTE",
+        },
+        {
+          title: "Organization",
+          icon: <Icons.linkedin className="size-3" />,
+          href: "https://promptrep.com/",
+        },
+      ],
+    },
+    {
       title: "Generative AI Buildathon",
       dates: "Nov 22, 2024",
       location: "Online Hackathon",
