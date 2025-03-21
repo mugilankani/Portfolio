@@ -1,6 +1,17 @@
 import { GlobeIcon, MailIcon } from "lucide-react";
 
 export type IconProps = React.HTMLAttributes<SVGElement>;
+export const InstagramIcon = (props: React.HTMLAttributes<SVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    {...props}
+  >
+    <title>Instagram</title>
+    <path d="M7.5 2C4.462 2 2 4.462 2 7.5v9C2 19.538 4.462 22 7.5 22h9c3.038 0 5.5-2.462 5.5-5.5v-9C22 4.462 19.538 2 16.5 2h-9zM7.5 4h9c1.94 0 3.5 1.56 3.5 3.5v9c0 1.94-1.56 3.5-3.5 3.5h-9C5.56 20 4 18.44 4 16.5v-9C4 5.56 5.56 4 7.5 4zm9 1a1.5 1.5 0 100 3 1.5 1.5 0 000-3zM12 7a5 5 0 100 10 5 5 0 000-10zm0 2a3 3 0 110 6 3 3 0 010-6z" />
+  </svg>
+);
 
 export const Icons = {
   globe: (props: IconProps) => <GlobeIcon {...props} />,

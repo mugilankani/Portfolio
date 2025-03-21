@@ -1,6 +1,12 @@
-import { Icons } from "@/components/icons";
+import { Icons, InstagramIcon } from "@/components/icons";
 import { Certificate } from "crypto";
-import { CodeIcon, HomeIcon, NotebookIcon, PencilLine } from "lucide-react";
+import {
+  CodeIcon,
+  HomeIcon,
+  Icon,
+  NotebookIcon,
+  PencilLine,
+} from "lucide-react";
 import { title } from "process";
 
 export const DATA = {
@@ -10,7 +16,7 @@ export const DATA = {
   location: "Salem, Tamilnadu, India",
   locationLink: "",
   description:
-    "Software Engineer and eager learner who enjoys building solutions and helping others.",
+    "Software Engineer and content creator sharing what I learn while continuing to grow",
   summary:
     "I'm started my journey of studying Computer Science - Pursuing Software Product Engineering at [Kalvium](/#education) and  a BCA degree at [Mysore University](/#education). I've helped students with over [2 talks](/#education) on picking the right college and gained great experience from [7+ hackathons](/#hackathons). I love helping others learn and sharing tips to support their growth.",
   avatarUrl: "/me.jpg",
@@ -63,6 +69,13 @@ export const DATA = {
         name: "X",
         url: "https://x.com/MugilanKani",
         icon: Icons.x,
+
+        navbar: true,
+      },
+      Youtube: {
+        name: "Youtube",
+        url: "https://www.youtube.com/@Flern-schools",
+        icon: Icons.youtube,
 
         navbar: true,
       },
@@ -182,7 +195,13 @@ export const DATA = {
       active: true,
       description:
         "We built an AI-powered dynamic infographic generator that transforms data into engaging visual stories. Using Next.js and Gemini API, we created an animated interface for seamless data storytelling.",
-      technologies: ["Next.Js", "Javascript", "TailwindCSS", "Gemini API", "Prompt Engineering"],
+      technologies: [
+        "Next.Js",
+        "Javascript",
+        "TailwindCSS",
+        "Gemini API",
+        "Prompt Engineering",
+      ],
       links: [
         {
           type: "Source",
@@ -207,7 +226,7 @@ export const DATA = {
         "Langchain",
         "Gemini API",
         "Prompt Engineering",
-        "Shadcn UI"
+        "Shadcn UI",
       ],
       links: [
         {
