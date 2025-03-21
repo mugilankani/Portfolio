@@ -149,6 +149,33 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Q-Space V2",
+      href: "https://github.com/AlwinSunil/q-space",
+      dates: "Mar 2025",
+      active: true,
+      description:
+        "We built Q-Space, an AI-powered learning assistant for ed-tech. It transforms uploaded Markdown or text files into comprehensive questions by extracting text, images, and videos. With AI-driven feedback and score tracking, Q-Space enhances learning seamlessly.",
+      technologies: [
+        "React.js",
+        "Javascript",
+        "TailwindCSS",
+        "Gemini API",
+        "Node.js",
+        "Langchain",
+        "Prompt Engineering",
+        "Trained Gemini",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/AlwinSunil/q-space",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/Q-Space.jpeg",
+      video: "",
+    },
+    {
       title: "DataMotion AI",
       href: "https://github.com/mugilankani/DataMotion-AI",
       dates: "Nov 2024",
@@ -372,6 +399,26 @@ export const DATA = {
     },
   ],
   hackathons: [
+    {
+      title: "Q-Space V2",
+      dates: "Mar 2025",
+      location: "Coimbatore",
+      description:
+        "We participated in the Kalvium Labs AI Hackathon and built Q-Space, an AI-powered tool for ed-tech. It generates questions from uploaded text, images, and videos, providing feedback and score tracking to enhance learning",
+      image: "/Kalvium.png",
+      links: [
+        {
+          title: "Linkedin",
+          icon: <Icons.linkedin className="size-3" />,
+          href: "https://www.linkedin.com/posts/mugilansakthivel_excited-to-share-our-hackathon-achievement-activity-7307640360829169664-wq6R?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEH8ZMkBh5akUoI5Qi4bN0gDzjs5fvjoqTE",
+        },
+        {
+          title: "Organization",
+          icon: <Icons.linkedin className="size-3" />,
+          href: "https://kalvium.com/",
+        },
+      ],
+    },
     {
       title: "Promptrepo Hackathon - Kalvium",
       dates: "Feb 1, 2025",
