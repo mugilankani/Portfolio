@@ -163,7 +163,7 @@ export const DATA = {
         "Node.js",
         "Langchain",
         "Prompt Engineering",
-        "Trained Gemini",
+        "Trained Model Gemini",
       ],
       links: [
         {
@@ -182,7 +182,7 @@ export const DATA = {
       active: true,
       description:
         "We built an AI-powered dynamic infographic generator that transforms data into engaging visual stories. Using Next.js and Gemini API, we created an animated interface for seamless data storytelling.",
-      technologies: ["Next.Js", "Javascript", "TailwindCSS", "Gemini API"],
+      technologies: ["Next.Js", "Javascript", "TailwindCSS", "Gemini API", "Prompt Engineering"],
       links: [
         {
           type: "Source",
@@ -206,6 +206,8 @@ export const DATA = {
         "TailwindCSS",
         "Langchain",
         "Gemini API",
+        "Prompt Engineering",
+        "Shadcn UI"
       ],
       links: [
         {
