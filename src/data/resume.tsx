@@ -96,44 +96,20 @@ export const DATA = {
     },
   },
 
-  // work: [
-  // {
-  //   company: "Kalvium",
-  //   href: "https://kalvium.com/",
-  //   badges: [],
-  //   location: "Coimbatore",
-  //   title: "Student at Kalvium",
-  //   logoUrl: "/Kalvium.png",
-  //   start: "Oct 2023",
-  //   end: "Oct 2027",
-  //   description:
-  //     "At Kalvium, I have spent the past year working with the MERN stack, building a range of small and large projects. This hands-on experience has provided me with valuable real-world skills and enabled me to connect with students across India, significantly expanding my professional network.",
-  // },
-  // {
-  //   company: "Hackathons",
-  //   badges: [],
-  //   href: "/#hackathons",
-  //   location: "Online and Offline",
-  //   title: "Author",
-  //   logoUrl: "/HackathonLogo.jpg",
-  //   start: "Jan 2024",
-  //   end: "Ongoing",
-  //   description:
-  //     "I have participated in over four hackathons with my friends, where I explored diverse technologies and developed real-world products. These events were instrumental in expanding my professional network, allowing me to connect with innovators from various backgrounds and significantly grow my network. The collaborative environment helped me gain new insights and forge valuable connections in the tech community.",
-  // },
-  // {
-  //   company: "Workshop",
-  //   href: "/#work",
-  //   badges: [],
-  //   location: "Tamilnadu",
-  //   title: "Educational Guidance Workshops",
-  //   logoUrl: "workshop.png",
-  //   start: "July 2023",
-  //   end: "Ongoing",
-  //   description:
-  //     "I have delivered over two speeches in schools, guiding students on achieving academic success and selecting the right college and department. These workshops provided detailed information on colleges and career paths, helping students make informed decisions about their educational journeys.",
-  // },
-  // ],
+  work: [
+    {
+      company: "Kalvium Labs",
+      href: "https://kalviumlabs.ai/",
+      badges: [],
+      location: "Bangalore, Karnataka",
+      title: "Software Engineer Intern",
+      logoUrl: "/KalLabs.svg",
+      start: "Mar 2025",
+      end: "Present",
+      description:
+        " I build cutting-edge AI products for companies that need smart, scalable solutions. I focus on using AI to solve real problems and make a meaningful impact in the world..",
+    },
+  ],
   education: [
     {
       school: "University of Mysore - Mysore, Karnataka",
