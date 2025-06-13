@@ -27,6 +27,8 @@ export const DATA = {
     "React.js",
     "Node.js",
     "Express.js",
+    "Genkit",
+    "Google Cloud",
     "MongoDB",
     "Mongoose",
     "Clerk",
@@ -137,6 +139,42 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "Scout AI",
+      href: "https://github.com/mugilankani/ScoutAI",
+      dates: "May 2025",
+      active: true,
+      description:
+        "Our advanced Hiring AI Agent thoroughly searches the internet to identify ideal candidates for your positions. It delivers comprehensive candidate profiles including background verification, pre-screening assessments, and creates personalized outreach strategies—streamlining your entire recruitment process.",
+      technologies: [
+        "Firebase",
+        "Genkit",
+        "RAG",
+        "Multi Agent System",
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "TailwindCSS",
+        "Prompt Engineering",
+        "Serp API",
+        "Linked in Scraper",
+   
+      ],
+      links: [
+        {
+         type: "Website",
+         href: "https://scoutai-8tau.onrender.com",
+         icon: <Icons.globe className="size-3" />,
+       },
+        {
+          type: "Source",
+          href: "https://github.com/AlwinSunil/q-space",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/ScoutAI.jpeg",
+      video: "",
+    },
     {
       title: "Q-Space V2",
       href: "https://github.com/AlwinSunil/q-space",
@@ -396,6 +434,26 @@ export const DATA = {
     },
   ],
   hackathons: [
+    {
+      title: "Scout AI",
+      dates: "May 2025",
+      location: "Online Hackathon",
+      description:
+        "Our advanced Hiring AI Agent thoroughly searches the internet to identify ideal candidates for your positions. It delivers comprehensive candidate profiles including background verification, pre-screening assessments, and creates personalized outreach strategies—streamlining your entire recruitment process.",
+      image: "/100xEngineersLogo.jpeg",
+      links: [
+        {
+          title: "Linkedin",
+          icon: <Icons.linkedin className="size-3" />,
+          href: "https://www.linkedin.com/posts/mugilansakthivel_17-hours-a-day-no-breaks-just-building-activity-7339127575891333122-y_b0?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEH8ZMkBh5akUoI5Qi4bN0gDzjs5fvjoqTE",
+        },
+        {
+          title: "Organization",
+          icon: <Icons.linkedin className="size-3" />,
+          href: "https://100xengineers.com/",
+        },
+      ],
+    },
     {
       title: "Q-Space V2",
       dates: "Mar 2025",
